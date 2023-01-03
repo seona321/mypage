@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <style>
+        .mytitle{
+            height: 250px;
+            width: 100%;
+
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("https://w.namu.la/s/abaaaccc45c44e03f0b63f3b832b3f2b1d1e83544987bc42aed92c75a1ff709b639b2c85f9c3cdfac7fe1f143f7c45f6e6ac8161fb642f7fa5d7c9896d9af8c87018221c3e61c004a26a915f2681ede0f9fc3ab8b095a5b503defff1e27f0693ba0f8f1feda77f74a5cf327f72204794");
+            background-position: center;
+            background-size: inherit;
+            color:white;
+
+            display : flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap{
+            max-width:1200px;
+            width: 95%;
+            margin: 20px auto 0px auto;
+        }
+        .mypost{
+            max-width: 500px;
+            width: 95%;
+            margin: 20px auto 0px auto;
+            box-shadow: 0px 0px 3px 0px gray;
+            padding : 20px;
+        }
+        .list {
+            max-width: 500px;
+            width: 95%;
+            margin: 20px auto 0px auto;
+        }
+        .list .card{
+            margin: 10px auto 0px auto;
+        }
+        .mybtn{
+            display : flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mytitle">
+        <h1>10cm 팬명록</h1>
+    </div>
+
+    <div class="wrap">
+        <div class="mypost">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">닉네임</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                          style="height: 100px"></textarea>
+                <label for="floatingTextarea2">응원댓글</label>
+            </div>
+            <div class="mybtn">
+                <button type="button" class="btn btn-dark">응원남기기</button>
+            </div>
+        </div>
+
+        <div class="list">
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>새로운 앨범 너무 멋져요!</p>
+                        <footer class="blockquote-footer">호빵맨 <cite title="Source Title"></cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>권정열 잘생겼어요~</p>
+                        <footer class="blockquote-footer">식빵맨 <cite title="Source Title"></cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>활발한 활동 기대합니다!</p>
+                        <footer class="blockquote-footer">세균맨 <cite title="Source Title"></cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
